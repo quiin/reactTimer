@@ -31,7 +31,8 @@ var Timer = React.createClass({
     }
   },
   componentWillUnmount() {
-    this.resetTimer();
+    clearTimeout(this.timer);
+    this.timer = undefined;
   },
 
   startTimer (){
