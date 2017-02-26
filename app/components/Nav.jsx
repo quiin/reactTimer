@@ -10,12 +10,12 @@ var Nav = (props) =>{
       <div className="top-bar-left">
         <ul className="menu">
           <li>
-            <Link to="/timmer" activeClassName='active-link' activeStyle={{fontWeight: 'bold'}}>
+            <Link to="/timer" activeClassName='active-link'>
               Timer
             </Link>
           </li>
           <li>
-            <Link to="/timmer" activeClassName='active-link' activeStyle={{fontWeight: 'bold'}}>
+            <Link to="/countdown" activeClassName='active-link'>
               Countdown
             </Link>
           </li>

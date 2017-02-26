@@ -2,9 +2,16 @@
   background-color: $nav-background;
 }
 
+.top-bar-title a{
+  color: $nav-text-color;
+}
+
 .top-bar {
-  .menu-text, .active-link{
+  .menu-text{
     color: $nav-text-color;
+  }
+  .active-link {
+    font-weight: bold;
   }
   .menu > .menu-text > a {
     display: inline;
