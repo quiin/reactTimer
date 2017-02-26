@@ -24,7 +24,7 @@ var Nav = (props) =>{
       <div className="top-bar-right">
         <ul className="menu">
           <li className="menu-text">
-            Created by <a href="http://wwww.github.com/quiin" target="_blank">Carlos Reyna</a>
+            Created by <a href="http://www.github.com/quiin" target="_blank">Carlos Reyna</a>
           </li>
         </ul>
       </div>
