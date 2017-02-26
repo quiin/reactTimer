@@ -21,7 +21,7 @@ describe('Countdown', () =>{
         done();
       }, 1001);
     });
-    it('should set state 0 when finished', (done) =>{
+    it('should set count to 0 when finished', (done) =>{
       var countdown = TestUtils.renderIntoDocument(<Countdown/>);
       countdown.handleSetCountdown(1);
       setTimeout(() => {

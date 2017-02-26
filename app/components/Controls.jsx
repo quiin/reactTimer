@@ -18,7 +18,7 @@ var Controls = React.createClass({
         case 'started':
           return <button className="button secondary" onClick={this.onStatusChange('paused')}>Pause</button>
           break;
-        case 'paused':
+        default:
           return <button className="button primary" onClick={this.onStatusChange('started')}>Start</button>
           break;
       }
